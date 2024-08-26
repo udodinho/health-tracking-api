@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthTracker.Api", "HealthTracker.Api.csproj", "{01308DF2-3C1F-4B87-9B32-621088AC5DB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthTracker.DataService", "HealthTracker.DataService", "{84AEFAAF-BC55-48CF-ABDB-86B42BF8F01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTracker.DataService", "..\HealthTracker.DataService\HealthTracker.DataService.csproj", "{BB45DA44-270A-491F-B9E2-6B68B526AB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTracker.Entities", "..\HealthTracker.Entities\HealthTracker.Entities.csproj", "{BF5366AF-FBC2-49DD-8C9D-8FE1D5688BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthTracker.Authentication", "HealthTracker.Authentication", "{D56EABBD-03E2-4355-82BC-22829F3BC966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTracker.Authentication", "..\HealthTracker.Authentication\HealthTracker.Authentication.csproj", "{DA6300BB-77DF-4872-94BD-4C774F4B07DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTracker.Configuration", "..\HealthTracker.Configuration\HealthTracker.Configuration.csproj", "{31C5E8AC-3874-49D8-980A-1F857CE441A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01308DF2-3C1F-4B87-9B32-621088AC5DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01308DF2-3C1F-4B87-9B32-621088AC5DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01308DF2-3C1F-4B87-9B32-621088AC5DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01308DF2-3C1F-4B87-9B32-621088AC5DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB45DA44-270A-491F-B9E2-6B68B526AB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB45DA44-270A-491F-B9E2-6B68B526AB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB45DA44-270A-491F-B9E2-6B68B526AB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB45DA44-270A-491F-B9E2-6B68B526AB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5366AF-FBC2-49DD-8C9D-8FE1D5688BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5366AF-FBC2-49DD-8C9D-8FE1D5688BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5366AF-FBC2-49DD-8C9D-8FE1D5688BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5366AF-FBC2-49DD-8C9D-8FE1D5688BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6300BB-77DF-4872-94BD-4C774F4B07DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6300BB-77DF-4872-94BD-4C774F4B07DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6300BB-77DF-4872-94BD-4C774F4B07DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6300BB-77DF-4872-94BD-4C774F4B07DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C5E8AC-3874-49D8-980A-1F857CE441A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C5E8AC-3874-49D8-980A-1F857CE441A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C5E8AC-3874-49D8-980A-1F857CE441A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C5E8AC-3874-49D8-980A-1F857CE441A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB45DA44-270A-491F-B9E2-6B68B526AB3F} = {84AEFAAF-BC55-48CF-ABDB-86B42BF8F01A}
+		{DA6300BB-77DF-4872-94BD-4C774F4B07DA} = {D56EABBD-03E2-4355-82BC-22829F3BC966}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3707B012-8871-4CC4-8060-88563E062AFD}
+	EndGlobalSection
+EndGlobal
